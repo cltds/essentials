@@ -1,0 +1,100 @@
+/* Custom CSS for Bucerius Law School (Bootstrap 4), 2020-04-19 */
+
+body {
+	font-family: "Inter",sans-serif;
+	letter-spacing: 0;
+	color: #595959;
+}
+
+h1 {
+	color: #a91c2b;
+	letter-spacing: -1.25px;
+	font-weight: 600;
+}
+
+h2 {
+	letter-spacing: -1px;
+}
+
+h3 {
+	letter-spacing: -1px;
+}
+
+h4 {
+	letter-spacing: -1px;
+	font-weight: 300;
+}
+
+a {
+	color: #a91c2b;
+}
+
+iframe {
+    clip-path: inset(1px);
+}
+
+a:hover {
+	color: #595959;
+	text-decoration: none;
+}
+
+nav {
+	background: #a91c2b;
+}
+
+nav-link {
+	color:#000;
+}
+
+label {
+	font-weight: 600;
+}
+
+.asterisk {
+	color: #a91c2b;
+}
+
+.btn-primary {
+	background: #0095bf;
+	border: none;
+}
+
+.btn-primary:hover {
+	background: #63c4de;
+	border: none;
+}
+
+.jumbotron {
+	background-color: #a91c2b;
+	color: #000;
+	border-radius: 0px 0px 0px 0px;
+	-moz-border-radius: 0px 0px 0px 0px;
+	-webkit-border-radius: 0px 0px 0px 0px;
+	border: 0px solid #000000;
+}
+
+.card {
+	border-radius: 0;
+	border-color: #fff;
+	background-color: #f8f8f8;
+	transition: background 0.2s;
+}
+
+.card-header {
+	border-radius: 0px;
+	border-color: #fff;
+	background: #eee;
+	transition: background 0.2s;
+}
+
+.card-header:hover {
+	background: #ddd;
+}
+
+.card:hover {
+	background: #eee;
+}
+
+#directors {
+    clip-path: inset(1px);
+}
