@@ -1509,7 +1509,7 @@ select {
 
 .bg-indigo-500 {
   --tw-bg-opacity: 1;
-  background-color: #51DA4C;
+  background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
 }
 
 .bg-blsRed {
@@ -1521,12 +1521,6 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(248, 177, 51, var(--tw-bg-opacity));
 }
-
-.bg-gptGreen {
-  --tw-bg-opacity: 1;
-  background-color: #51DA4C;
-}
-
 
 .bg-blsBlue {
   --tw-bg-opacity: 1;
@@ -1545,7 +1539,7 @@ select {
 
 .bg-smuViolet {
   --tw-bg-opacity: 1;
-  background-color: #51DA4C;
+  background-color: rgba(45, 10, 98, var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-50:hover {
@@ -1907,11 +1901,6 @@ select {
 .text-blsYellow {
   --tw-text-opacity: 1;
   color: rgba(248, 177, 51, var(--tw-text-opacity));
-}
-
-.text-blsBlack {
-  --tw-text-opacity: 1;
-  color: black;
 }
 
 .text-blsBlue {
