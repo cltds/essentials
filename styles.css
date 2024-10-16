@@ -60,7 +60,8 @@ body {
   font-family:
 		system-ui,
 		-apple-system, /* Firefox supports this but not yet `system-ui` */
-		'Segoe UI',
+		
+    'Segoe UI',
 		Roboto,
 		Helvetica,
 		Arial,
@@ -1012,10 +1013,6 @@ select {
   margin-left: 2rem;
 }
 
-.ml-12 {
-  margin-left: 3rem;
-}
-
 .-ml-3 {
   margin-left: -0.75rem;
 }
@@ -1513,7 +1510,7 @@ select {
 
 .bg-indigo-500 {
   --tw-bg-opacity: 1;
-  background-color: #51DA4C;
+  background-color: rgba(99, 102, 241, var(--tw-bg-opacity));
 }
 
 .bg-blsRed {
@@ -1525,12 +1522,6 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgba(248, 177, 51, var(--tw-bg-opacity));
 }
-
-.bg-gptGreen {
-  --tw-bg-opacity: 1;
-  background-color: #51DA4C;
-}
-
 
 .bg-blsBlue {
   --tw-bg-opacity: 1;
@@ -1549,7 +1540,7 @@ select {
 
 .bg-smuViolet {
   --tw-bg-opacity: 1;
-  background-color: #40c33b;
+  background-color: rgba(60, 15, 88, var(--tw-bg-opacity));
 }
 
 .hover\:bg-gray-50:hover {
@@ -1913,11 +1904,6 @@ select {
   color: rgba(248, 177, 51, var(--tw-text-opacity));
 }
 
-.text-blsBlack {
-  --tw-text-opacity: 1;
-  color: black;
-}
-
 .text-blsBlue {
   --tw-text-opacity: 1;
   color: rgba(0, 149, 191, var(--tw-text-opacity));
@@ -1945,7 +1931,7 @@ select {
 
 .text-smuViolet {
   --tw-text-opacity: 1;
-  color: rgba(45, 10, 98, var(--tw-text-opacity));
+  color: rgba(60, 15, 88, var(--tw-text-opacity));
 }
 
 .hover\:text-gray-100:hover {
@@ -1976,6 +1962,11 @@ select {
 .hover\:text-red-500:hover {
   --tw-text-opacity: 1;
   color: rgba(239, 68, 68, var(--tw-text-opacity));
+}
+
+.hover\:text-yellow-500:hover {
+  --tw-text-opacity: 1;
+  color: rgba(248, 177, 51, var(--tw-text-opacity));
 }
 
 .underline {
